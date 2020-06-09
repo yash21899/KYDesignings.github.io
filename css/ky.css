@@ -1,0 +1,192 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+section, header{
+  overflow: hidden;
+}
+.all{
+    background-image: url('../images/download.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+/*--------------------navbar---------------------------------*/
+
+.nav-item{
+   
+    font-size: 25px;
+    padding: 0px 20px; 
+}
+
+.navbar-brand img{
+  margin-left: 20px;
+  width: 150px;
+  height: 80px;
+
+}
+/*--------------------navbar---------------------------------*/
+
+/*-------------------------slider---------------------------*/
+.carousel-inner img {
+    width: 100%;
+    height: 85vh;
+  }
+  /*--------------------slider---------------------------------*/
+
+  /*--------------------logo---------------------------------*/
+.ky img{
+  width: 100%;
+  height: 500px!important;
+}
+
+  /*--------------------logo end---------------------------------*/
+
+
+/*--------------------our services---------------------------------*/
+
+.visiting img{
+  padding: 20px;
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+
+/*--------------------services end---------------------------------*/
+
+
+  /*--------------------port folio---------------------------------*/
+  .images{
+    width: 350px!important;
+    height: 300px!important;
+    padding: 20px;
+  }
+  .images:hover, .visiting:hover{
+      box-shadow: 0 0 40px 0 rgba(232, 238, 238, 0.671);
+      transform: translateY(-20px);
+  }
+  
+  .viewbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main{
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+
+  /*--------------------port folio---------------------------------*/
+ 
+  /*--------------------line hr tag---------------------------------*/
+  .nice hr{
+    color: white;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+ 
+  /*--------------------line hr tag---------------------------------*/
+ 
+  
+  /*---------------------about us---------------------------------*/
+  
+  .ab{
+      color: papayawhip;
+      font-size: 1.4rem;  
+      line-height: 2;
+  }
+  .our h3{
+      color: paleturquoise;
+  }
+  .our p{
+      color: azure;
+  }
+  
+   /*---------------------about us---------------------------------*/
+	
+ /*---------------------footer---------------------------------*/
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: white;
+    background: grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+#myBtn:hover{
+    background: white;
+    color: black;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    color: aliceblue;   
+}
+.cen{
+    font-size: 1.3rem;
+    color: antiquewhite;
+}
+.footer{
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+}
+.icon{
+    
+    height: 50px;
+    bottom: 10px;
+    
+    
+    border: none;
+   
+    background: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+.nav-link1{
+  margin-left: 30px;
+}
+ /*---------------------footer---------------------------------*/
+.folio{
+  background-image: url('../images/download.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.extrai{
+  margin-top: 20px;
+  width: 100%;
+  height: 500px!important;
+}
+.imag{
+  width: 350px!important;
+  height: 200px!important; 
+  padding: 10px;
+}
+.imag:hover{
+  box-shadow: 0 0 40px 0 rgba(232, 238, 238, 0.671);
+  transform: translateY(-10px);
+}
+
+
+
+
+
+
